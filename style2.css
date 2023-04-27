@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: #001e4d;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+  }
+  
+  .container {
+	max-width: 600px;
+	margin: 180 auto;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  .container h1{
+	font-size: 25px;
+	color: #001e4d;
+	text-align: center;
+	font-weight: 600;
+	border-bottom: 2px solid #333;
+	padding-bottom: 30px;
+}
+  
+  .gameDiv {
+	text-align: center;
+  }
+  
+  h1 {
+	font-size: 28px;
+	color: #555555;
+	margin-top: 0;
+  }
+  
+  form {
+	margin-top: 20px;
+  }
+  
+  input[type="number"] {
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+	font-size: 16px;
+	background-color: #F5F5F5;
+	color: #555555;
+	box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button.button {
+	background-color: #E74C3C;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 20px;
+	font-size: 18px;
+	cursor: pointer;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+	transition: background-color 0.3s ease;
+  }
+  
+  button.button:hover {
+	background-color: #C0392B;
+  }
+  
+  #dialogoverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 10;
+	display: none;
+  }
+  
+  #dialogbox {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+	z-index: 11;
+	display: none;
+  }
+  
+  #dialogbox > div {
+	padding: 20px;
+  }
+  
+  #dialogboxhead {
+	font-size: 24px;
+	color: #001e4d;
+	margin-bottom: 10px;
+  }
+  
+  #dialogboxbody {
+	font-size: 16px;
+	color: #555555;
+	margin-bottom: 20px;
+	
+  }
+  
+  #dialogboxfoot {
+	text-align: right;
+  }
+  
+  #dialogboxfoot button {
+	background-color: #001e4d;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 20px;
+	font-size: 18px;
+	cursor: pointer;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+	transition: background-color 0.3s ease;
+  }
+  
+  #dialogboxfoot button:hover {
+	background-color: #001e4d;
+  }
+  
